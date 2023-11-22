@@ -1,0 +1,85 @@
+.section_gallery{
+  padding: 100px;
+}
+.gallery {
+  color: #191919;
+  margin: 20px auto;
+  width: 450px;
+  font-size: 3rem;
+  text-align: center;
+  top: -70px;
+  position: relative;
+}
+.gallery_img {
+  width: 450px;
+  height: 300px;
+  border: 2px solid #191919;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  transition-duration: 1s;
+  border-radius:5px ;
+}
+.view .gallery_img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-filter: none;
+  filter: none;
+  border-radius:5px ;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.view{
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 35px;
+}
+.view .mask{
+  position: absolute;
+  font-size: 15px;
+  z-index: 999;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  left: 10%;
+  transition-duration: 1.5s;
+}
+.view .mask:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  font-weight: 600;
+}
+.namehouse{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+}
+.square{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.gabbarites{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.gab_span{
+  font-weight: 100;
+  font-size: 25px;
+}
+.gab_span:hover{
+  font-weight: 600;
+}

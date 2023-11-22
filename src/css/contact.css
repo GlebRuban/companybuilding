@@ -1,0 +1,112 @@
+.Tickets{
+    padding: 100px;
+}
+.div_contacts{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 20%;
+    top: 36px;
+  }
+  .first_contact{
+    flex: 1 1;
+    position: relative;
+    right: -5%;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    top: 8px;
+  }
+  .adress_h1{
+    position: relative;
+    left: -1%;
+    font-weight: 100;
+    font-size: 22px;
+  }
+  .adress{
+    position: relative;
+    left: -1%;
+    top: -4px;
+  }
+  .rejim{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+  }
+  .rejim_h1{
+    font-size: 25px;
+    position: relative;
+    left: -1%;
+    font-weight: 400;
+  }
+  .websday{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .second_contacts{
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    left: -8%;
+    position: relative;
+    top: 26px;
+  }
+  .tickets{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    top: -17px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .span_tel {
+    font-size: 17px;
+  }
+  .arenda{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 300;
+    top: 24px;
+    gap: 24px;
+  }
+  .vk{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    font-weight: 300;
+    font-size: 27px;
+    gap: 22px;
+  }
+  .kontakt{
+    position: relative;
+    top: -70px;
+    font-size: 50px;
+    font-weight: 400;
+    left: 44.5%;
+    height: 0;
+  }
+  .map_section{
+    padding: 100px 100px 0px 100px;
+  }
+  .Map{
+    width: 100%;
+  }
+  .div_map{
+    width: 800px;
+    height: 489px;
+    position: relative;
+    left: 25%;
+    top: -81px;
+  }
+  .googleMap{
+    width: 858px;
+    height: 440px;
+    border: 0;
+    border-radius: 16px;
+  }
